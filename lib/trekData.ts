@@ -20,16 +20,16 @@ export const trekData: Destination[] = [
   },
   {
     name: 'Domen',
-    lat: 28.1650,
-    lng: 85.3750,
+    lat: 28.15157911891836, 
+    lng: 85.3708619588358,
     elevation: 2150,
     timeFromPrevious: '3hr',
     isHotel: true
   },
   {
     name: 'Pairo',
-    lat: 28.1700,
-    lng: 85.4000,
+    lat:  28.152850543584634,
+    lng:  85.37852408734497,
     elevation: 2350,
     timeFromPrevious: '1hr 30min',
       isHotel: true
@@ -68,8 +68,8 @@ export const trekData: Destination[] = [
   },
   {
     name: 'Ghodatabela',
-    lat: 28.200061,
-    lng: 85.461943,
+    lat: 28.200849301431013,
+    lng:  85.4606523187279,
     elevation: 3000,
     timeFromPrevious: '2hr 30min',
     isHotel: true
@@ -84,8 +84,8 @@ export const trekData: Destination[] = [
   },
   {
     name: 'Langtang Village',
-    lat: 28.2133,
-    lng: 85.5167,
+    lat:  28.215503344106224, 
+    lng: 85.50996942730843,
     elevation: 3430,
     description: 'Rebuilt after the 2015 earthquake',
     timeFromPrevious: '1hr 30min',
@@ -106,15 +106,7 @@ export const trekData: Destination[] = [
     elevation: 3850,
     description: 'Beautiful monastery and viewpoint',
     timeFromPrevious: '1hr 30min',
-    isHotel: true
-  },
-  {
-    name: 'Langtang Lirung Base',
-        lat: 28.22388386996899, 
-        lng: 85.57602169081248,
-    elevation: 4400,
-    description: 'Base for climbing Langtang Lirung',
-    timeFromPrevious: '4hr',
+    isHotel: true,
     subDestinations: [
       {
         name: 'Tserko Ri',
